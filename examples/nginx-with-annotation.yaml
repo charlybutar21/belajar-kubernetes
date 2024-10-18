@@ -3,11 +3,12 @@ kind: Pod
 metadata:
   name: nginx-with-annotation
   labels:
-    team: finance
+    team: product
     version: 1.0.1
     environment: development
   annotations:
-    description: Ini adalah deskripsi
+    description: Ini adalah aplikasi yang dibuat oleh tim product
+    apapun: Apapun itu....
 spec:
   containers:
     - name: nginx
